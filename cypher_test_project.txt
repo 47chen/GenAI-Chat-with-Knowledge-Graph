@@ -1,0 +1,136 @@
+MERGE (n:Project {id: "betaHealthTelemedicinePlatformOnMicrosoftAzure" }) ON CREATE SET n.name = "BetaHealth Telemedicine Platform on Microsoft Azure", n.summary = "A telemedicine platform developed for BetaHealth to provide remote consultations and care using Microsoft Azure services."
+MERGE (n:Technology {id: "azureCommunicationServices" }) ON CREATE SET n.name = "Azure Communication Services"
+MERGE (n:Technology {id: "azureBlobStorage" }) ON CREATE SET n.name = "Azure Blob Storage"
+MERGE (n:Technology {id: "azureSqlDatabase" }) ON CREATE SET n.name = "Azure SQL Database"
+MERGE (n:Technology {id: "azureSecurityCenter" }) ON CREATE SET n.name = "Azure Security Center"
+MERGE (n:Client {id: "betaHealth" }) ON CREATE SET n.name = "BetaHealth", n.industry = "healthcare"
+MERGE (n:Project {id: "deltaeduVirtualClassroomPlatformOnAWS" }) ON CREATE SET n.name = "DeltaEdu Virtual Classroom Platform on AWS", n.summary = "Design and development of a scalable virtual classroom platform for DeltaEdu using AWS services"
+MERGE (n:Technology {id: "awsChime" }) ON CREATE SET n.name = "AWS Chime"
+MERGE (n:Technology {id: "awsElasticBeanstalk" }) ON CREATE SET n.name = "AWS Elastic Beanstalk"
+MERGE (n:Technology {id: "awsRDS" }) ON CREATE SET n.name = "AWS RDS"
+MERGE (n:Technology {id: "awsLambda" }) ON CREATE SET n.name = "AWS Lambda"
+MERGE (n:Client {id: "deltaEdu" }) ON CREATE SET n.name = "DeltaEdu", n.industry = "education"
+MERGE (n:Project {id: "GammaTechAutonomousFleetManagementSystemOnAzure" }) ON CREATE SET n.name = "GammaTech Autonomous Fleet Management System on Azure", n.summary = "A comprehensive platform hosted on Microsoft Azure for real-time vehicle monitoring and control, route optimization, and ensuring the safety and efficiency of GammaTech's autonomous fleet."
+MERGE (n:Technology {id: "MicrosoftAzureIoTHub" }) ON CREATE SET n.name = "Microsoft Azure IoT Hub"
+MERGE (n:Technology {id: "AzureFunctions" }) ON CREATE SET n.name = "Azure Functions"
+MERGE (n:Technology {id: "AzureMachineLearning" }) ON CREATE SET n.name = "Azure Machine Learning"
+MERGE (n:Technology {id: "AzureBlobStorage" }) ON CREATE SET n.name = "Azure Blob Storage"
+MERGE (n:Technology {id: "AzureLogicApps" }) ON CREATE SET n.name = "Azure Logic Apps"
+MERGE (n:Technology {id: "AzureMonitor" }) ON CREATE SET n.name = "Azure Monitor"
+MERGE (n:Client {id: "GammaTech" }) ON CREATE SET n.name = "GammaTech", n.industry = "transportation and logistics"
+MERGE (n:Project {id: "gammatechSmartLogisticsPlatformOnAzure" }) ON CREATE SET n.name = "GammaTech Smart Logistics Platform on Azure", n.summary = "A comprehensive platform hosted on Microsoft Azure for real-time vehicle monitoring, route optimization and enhancing the safety and efficiency of GammaTech's logistics operations"
+MERGE (n:Technology {id: "azureIoTHub" }) ON CREATE SET n.name = "Azure IoT Hub"
+MERGE (n:Technology {id: "azureFunctions" }) ON CREATE SET n.name = "Azure Functions"
+MERGE (n:Technology {id: "azureMachineLearning" }) ON CREATE SET n.name = "Azure Machine Learning"
+MERGE (n:Technology {id: "azureCosmosDB" }) ON CREATE SET n.name = "Azure Cosmos DB"
+MERGE (n:Technology {id: "azureDevOps" }) ON CREATE SET n.name = "Azure DevOps"
+MERGE (n:Client {id: "gammatech" }) ON CREATE SET n.name = "GammaTech", n.industry = "transportation and logistics"
+MERGE (n:Project {id: "AlphaCorpAWSChatbot" }) ON CREATE SET n.name = "AlphaCorp AWS-Powered Customer Support Chatbot", n.summary = "Development of a customer support chatbot for AlphaCorp, utilizing AWS services and machine learning algorithms to handle customer inquiries efficiently."
+MERGE (n:Technology {id: "AWSLambda" }) ON CREATE SET n.name = "AWS Lambda"
+MERGE (n:Technology {id: "AWSLex" }) ON CREATE SET n.name = "AWS Lex"
+MERGE (n:Technology {id: "AWSS3" }) ON CREATE SET n.name = "AWS S3"
+MERGE (n:Technology {id: "AWSCloudWatch" }) ON CREATE SET n.name = "AWS CloudWatch"
+MERGE (n:Technology {id: "APIGateway" }) ON CREATE SET n.name = "API Gateway"
+MERGE (n:Client {id: "AlphaCorp" }) ON CREATE SET n.name = "AlphaCorp", n.industry = "Customer Support Services"
+MERGE (n:Project {id: "betaHealthSecurePlatform" }) ON CREATE SET n.name = "BetaHealth Secure Healthcare Data Analytics Platform", n.summary = "A secure healthcare data analytics platform hosted on Microsoft Azure for BetaHealth, a leading healthcare provider."
+MERGE (n:Technology {id: "azureDatabricks" }) ON CREATE SET n.name = "Azure Databricks"
+MERGE (n:Technology {id: "azureMachineLearning" }) ON CREATE SET n.name = "Azure Machine Learning"
+MERGE (n:Technology {id: "azureKeyVault" }) ON CREATE SET n.name = "Azure Key Vault"
+MERGE (n:Technology {id: "azureActiveDirectory" }) ON CREATE SET n.name = "Azure Active Directory"
+MERGE (n:Technology {id: "azureSynapseAnalytics" }) ON CREATE SET n.name = "Azure Synapse Analytics"
+MERGE (n:Technology {id: "azureLogicApps" }) ON CREATE SET n.name = "Azure Logic Apps"
+MERGE (n:Client {id: "betaHealth" }) ON CREATE SET n.name = "BetaHealth", n.industry = "healthcare provider"
+MERGE (n:Project {id: "alphacorpAWSdashboard" }) ON CREATE SET n.name = "AlphaCorp AWS-Powered Sales Analytics Dashboard", n.summary = "Built a Sales Analytics Dashboard hosted on AWS, providing real-time insights into sales metrics, customer segmentation, and product performance."
+MERGE (n:Client {id: "alphacorp" }) ON CREATE SET n.name = "AlphaCorp", n.industry = "Technology"
+MERGE (n:Technology {id: "awsQuicksight" }) ON CREATE SET n.name = "AWS Quicksight"
+MERGE (n:Technology {id: "awsRedshift" }) ON CREATE SET n.name = "AWS Redshift"
+MERGE (n:Technology {id: "awsLambda" }) ON CREATE SET n.name = "AWS Lambda"
+MERGE (n:Technology {id: "awsS3" }) ON CREATE SET n.name = "AWS S3"
+MERGE (n:Project {id: "AlphaCorpAWSPlatform" }) ON CREATE SET n.name = "AlphaCorp AWS-Powered Supply Chain Optimization Platform", n.summary = "Brief: AlphaCorp AWS-Powered Supply Chain Optimization Platform. Customer Need: AlphaCorp grapples with managing a complex supply chain, encompassing multiple suppliers and distribution centers. They require a robust platform hosted on the AWS platform to optimize supply chain operations, reduce costs, and ensure punctual deliveries. Delivered Solution: We have devised a Supply Chain Optimization Platform hosted on AWS, powered by advanced algorithms and data analytics, tailored to meet AlphaCorp's unique requirements."
+MERGE (n:Technology {id: "EC2" }) ON CREATE SET n.name = "EC2"
+MERGE (n:Technology {id: "SageMaker" }) ON CREATE SET n.name = "SageMaker"
+MERGE (n:Technology {id: "RDS" }) ON CREATE SET n.name = "RDS"
+MERGE (n:Technology {id: "S3" }) ON CREATE SET n.name = "S3"
+MERGE (n:Technology {id: "Lambda" }) ON CREATE SET n.name = "Lambda"
+MERGE (n:Technology {id: "CloudWatch" }) ON CREATE SET n.name = "CloudWatch"
+MERGE (n:Client {id: "AlphaCorp" }) ON CREATE SET n.industry = "Supply Chain Management"
+MERGE (n:Project {id: "epsilonFinanceMobileFirstDigitalWallet" }) ON CREATE SET n.name = "EpsilonFinance Mobile-First Digital Wallet", n.summary = "A mobile wallet developed for EpsilonFinance on Google Cloud, offering instant transactions, bank integrations and loyalty rewards."
+MERGE (n:Technology {id: "googleFirebase" }) ON CREATE SET n.name = "Google Firebase"
+MERGE (n:Technology {id: "googleFirestore" }) ON CREATE SET n.name = "Google Firestore"
+MERGE (n:Technology {id: "googleCloudFunctions" }) ON CREATE SET n.name = "Google Cloud Functions"
+MERGE (n:Technology {id: "googlePayAPIs" }) ON CREATE SET n.name = "Google Pay APIs"
+MERGE (n:Client {id: "epsilonFinance" }) ON CREATE SET n.name = "EpsilonFinance", n.industry = "Financial Services"
+MERGE (n:Project {id: "betaHealthPlatform" }) ON CREATE SET n.name = "BetaHealth AI-Driven Patient Care Enhancement Platform", n.summary = "An AI-driven platform for patient care enhancement hosted on Microsoft Azure, providing real-time monitoring, predictive analytics, and intelligent resource allocation."
+MERGE (n:Client {id: "betaHealth" }) ON CREATE SET n.name = "BetaHealth", n.industry = "healthcare"
+MERGE (n:Technology {id: "azureVirtualMachines" }) ON CREATE SET n.name = "Azure Virtual Machines"
+MERGE (n:Technology {id: "azureMachineLearning" }) ON CREATE SET n.name = "Azure Machine Learning"
+MERGE (n:Technology {id: "azureFunctions" }) ON CREATE SET n.name = "Azure Functions"
+MERGE (n:Technology {id: "azureSQLDatabase" }) ON CREATE SET n.name = "Azure SQL Database"
+MERGE (n:Technology {id: "azureIoT" }) ON CREATE SET n.name = "Azure IoT"
+MERGE (n:Technology {id: "azureCognitiveServices" }) ON CREATE SET n.name = "Azure Cognitive Services"
+MERGE (n:Project {id: "deltaEduAI" }) ON CREATE SET n.name = "DeltaEdu AI-Powered Student Performance Analytics", n.summary = "An AI-driven analytics solution on AWS for DeltaEdu to gain deeper insights into student performance, identify learning gaps, and personalize the educational journey."
+MERGE (n:Technology {id: "AWSSageMaker" }) ON CREATE SET n.name = "AWS SageMaker"
+MERGE (n:Technology {id: "AWSQuickSight" }) ON CREATE SET n.name = "AWS QuickSight"
+MERGE (n:Technology {id: "DynamoDB" }) ON CREATE SET n.name = "DynamoDB"
+MERGE (n:Technology {id: "AWSLambda" }) ON CREATE SET n.name = "AWS Lambda"
+MERGE (n:Client {id: "DeltaEdu" }) ON CREATE SET n.name = "DeltaEdu", n.industry = "Education"
+MATCH (a:Project {id: 'betaHealthTelemedicinePlatformOnMicrosoftAzure'}) MERGE (b:Technology {id: 'azureCommunicationServices'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthTelemedicinePlatformOnMicrosoftAzure'}) MERGE (b:Technology {id: 'azureBlobStorage'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthTelemedicinePlatformOnMicrosoftAzure'}) MERGE (b:Technology {id: 'azureSqlDatabase'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthTelemedicinePlatformOnMicrosoftAzure'}) MERGE (b:Technology {id: 'azureSecurityCenter'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthTelemedicinePlatformOnMicrosoftAzure'}) MERGE (b:Client {id: 'betaHealth'}) MERGE (a)-[:HAS_CLIENT]->(b)
+MATCH (a:Project {id: 'deltaeduVirtualClassroomPlatformOnAWS'}) MERGE (b:Technology {id: 'awsChime'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'deltaeduVirtualClassroomPlatformOnAWS'}) MERGE (b:Technology {id: 'awsElasticBeanstalk'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'deltaeduVirtualClassroomPlatformOnAWS'}) MERGE (b:Technology {id: 'awsRDS'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'deltaeduVirtualClassroomPlatformOnAWS'}) MERGE (b:Technology {id: 'awsLambda'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'deltaeduVirtualClassroomPlatformOnAWS'}) MERGE (b:Client {id: 'deltaEdu'}) MERGE (a)-[:HAS_CLIENT]->(b)
+MATCH (a:Project {id: 'GammaTechAutonomousFleetManagementSystemOnAzure'}) MERGE (b:Technology {id: 'MicrosoftAzureIoTHub'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'GammaTechAutonomousFleetManagementSystemOnAzure'}) MERGE (b:Technology {id: 'AzureFunctions'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'GammaTechAutonomousFleetManagementSystemOnAzure'}) MERGE (b:Technology {id: 'AzureMachineLearning'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'GammaTechAutonomousFleetManagementSystemOnAzure'}) MERGE (b:Client {id: 'GammaTech'}) MERGE (a)-[:HAS_CLIENT]->(b)
+MATCH (a:Project {id: 'gammatechSmartLogisticsPlatformOnAzure'}) MERGE (b:Technology {id: 'azureIoTHub'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'gammatechSmartLogisticsPlatformOnAzure'}) MERGE (b:Technology {id: 'azureFunctions'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'gammatechSmartLogisticsPlatformOnAzure'}) MERGE (b:Technology {id: 'azureMachineLearning'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'gammatechSmartLogisticsPlatformOnAzure'}) MERGE (b:Technology {id: 'azureCosmosDB'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'gammatechSmartLogisticsPlatformOnAzure'}) MERGE (b:Technology {id: 'azureDevOps'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'gammatechSmartLogisticsPlatformOnAzure'}) MERGE (b:Client {id: 'gammatech'}) MERGE (a)-[:HAS_CLIENT]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSChatbot'}) MERGE (b:Technology {id: 'AWSLambda'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSChatbot'}) MERGE (b:Technology {id: 'AWSLex'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSChatbot'}) MERGE (b:Technology {id: 'AWSCloudWatch'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSChatbot'}) MERGE (b:Technology {id: 'APIGateway'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSChatbot'}) MERGE (b:Client {id: 'AlphaCorp'}) MERGE (a)-[:HAS_CLIENT]->(b)
+MATCH (a:Project {id: 'betaHealthSecurePlatform'}) MERGE (b:Technology {id: 'azureDatabricks'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthSecurePlatform'}) MERGE (b:Technology {id: 'azureMachineLearning'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthSecurePlatform'}) MERGE (b:Technology {id: 'azureKeyVault'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthSecurePlatform'}) MERGE (b:Technology {id: 'azureActiveDirectory'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthSecurePlatform'}) MERGE (b:Technology {id: 'azureSynapseAnalytics'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthSecurePlatform'}) MERGE (b:Technology {id: 'azureLogicApps'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthSecurePlatform'}) MERGE (b:Client {id: 'betaHealth'}) MERGE (a)-[:HAS_CLIENT]->(b)
+MATCH (a:Project {id: 'alphacorpAWSdashboard'}) MERGE (b:Technology {id: 'awsQuicksight'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'alphacorpAWSdashboard'}) MERGE (b:Technology {id: 'awsRedshift'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'alphacorpAWSdashboard'}) MERGE (b:Technology {id: 'awsLambda'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'alphacorpAWSdashboard'}) MERGE (b:Technology {id: 'awsS3'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSPlatform'}) MERGE (b:Technology {id: 'EC2'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSPlatform'}) MERGE (b:Technology {id: 'SageMaker'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSPlatform'}) MERGE (b:Technology {id: 'RDS'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSPlatform'}) MERGE (b:Technology {id: 'S3'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSPlatform'}) MERGE (b:Technology {id: 'Lambda'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSPlatform'}) MERGE (b:Technology {id: 'CloudWatch'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSPlatform'}) MERGE (b:Client {id: 'AlphaCorp'}) MERGE (a)-[:HAS_CLIENT]->(b)
+MATCH (a:Project {id: 'epsilonFinanceMobileFirstDigitalWallet'}) MERGE (b:Technology {id: 'googleFirebase'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'epsilonFinanceMobileFirstDigitalWallet'}) MERGE (b:Technology {id: 'googleFirestore'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'epsilonFinanceMobileFirstDigitalWallet'}) MERGE (b:Technology {id: 'googleCloudFunctions'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'epsilonFinanceMobileFirstDigitalWallet'}) MERGE (b:Technology {id: 'googlePayAPIs'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'epsilonFinanceMobileFirstDigitalWallet'}) MERGE (b:Client {id: 'epsilonFinance'}) MERGE (a)-[:HAS_CLIENT]->(b)
+MATCH (a:Project {id: 'betaHealthPlatform'}) MERGE (b:Technology {id: 'azureVirtualMachines'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthPlatform'}) MERGE (b:Technology {id: 'azureMachineLearning'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthPlatform'}) MERGE (b:Technology {id: 'azureFunctions'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthPlatform'}) MERGE (b:Technology {id: 'azureSQLDatabase'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthPlatform'}) MERGE (b:Technology {id: 'azureIoT'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthPlatform'}) MERGE (b:Technology {id: 'azureCognitiveServices'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'betaHealthPlatform'}) MERGE (b:Client {id: 'betaHealth'}) MERGE (a)-[:HAS_CLIENT]->(b)
+MATCH (a:Project {id: 'deltaEduAI'}) MERGE (b:Technology {id: 'AWSSageMaker'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'deltaEduAI'}) MERGE (b:Technology {id: 'AWSQuickSight'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'deltaEduAI'}) MERGE (b:Technology {id: 'DynamoDB'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'deltaEduAI'}) MERGE (b:Technology {id: 'AWSLambda'}) MERGE (a)-[:USES_TECH]->(b)
+MATCH (a:Project {id: 'deltaEduAI'}) MERGE (b:Client {id: 'DeltaEdu'}) MERGE (a)-[:HAS_CLIENT]->(b)

@@ -1,0 +1,104 @@
+MERGE (n:Person {id: "SarahJohnson" }) ON CREATE SET n.name = "Sarah Johnson"
+MERGE (n:Person {id: "DavidPatel" }) ON CREATE SET n.name = "David Patel"
+MERGE (n:Person {id: "AmandaRodriguez" }) ON CREATE SET n.name = "Amanda Rodriguez"
+MERGE (n:Person {id: "JasonMitchell" }) ON CREATE SET n.name = "Jason Mitchell"
+MERGE (n:Person {id: "EmilyTurner" }) ON CREATE SET n.name = "Emily Turner"
+MERGE (n:Person {id: "MichaelClark" }) ON CREATE SET n.name = "Michael Clark"
+MERGE (n:Person {id: "JessicaWhite" }) ON CREATE SET n.name = "Jessica White"
+MERGE (n:Person {id: "DanielBrown" }) ON CREATE SET n.name = "Daniel Brown"
+MERGE (n:Person {id: "OliviaMartinez" }) ON CREATE SET n.name = "Olivia Martinez"
+MERGE (n:Person {id: "WilliamLee" }) ON CREATE SET n.name = "William Lee"
+MERGE (n:Person {id: "EmmaMartinez" }) ON CREATE SET n.name = "Emma Martinez"
+MERGE (n:Project {id: "AlphaCorpAWSPoweredSalesAnalyticsDashboard" }) ON CREATE SET n.name = "AlphaCorp AWS-Powered Sales Analytics Dashboard"
+MERGE (n:Technology {id: "DataEngineering" })
+MERGE (n:Project {id: "DeltaEduVirtualClassroomPlatformonAWS" }) ON CREATE SET n.name = "DeltaEdu Virtual Classroom Platform on AWS"
+MERGE (n:Technology {id: "AWS" })
+MERGE (n:Person {id: "NoahWilson" }) ON CREATE SET n.name = "Noah Wilson"
+MERGE (n:Project {id: "GammaTechIoTDrivenManufacturingMonitoringSystemonAzure" }) ON CREATE SET n.name = "GammaTech IoT-Driven Manufacturing Monitoring System on Azure"
+MERGE (n:Technology {id: "DataPrivacy" })
+MERGE (n:Person {id: "AvaJackson" }) ON CREATE SET n.name = "Ava Jackson"
+MERGE (n:Project {id: "BetaHealthTelemedicinePlatformonMicrosoftAzure" }) ON CREATE SET n.name = "BetaHealth Telemedicine Platform on Microsoft Azure"
+MERGE (n:Technology {id: "CloudArchitecture" })
+MERGE (n:Person {id: "BenjaminWhite" }) ON CREATE SET n.name = "Benjamin White"
+MERGE (n:Project {id: "DeltaEduAIPoweredStudentPerformanceAnalyticsonAWS" }) ON CREATE SET n.name = "DeltaEdu AI-Powered Student Performance Analytics on AWS"
+MERGE (n:Technology {id: "RealtimeMonitoring" })
+MERGE (n:Person {id: "IsabellaHarris" }) ON CREATE SET n.name = "Isabella Harris"
+MERGE (n:Project {id: "AlphaCorpAWSPoweredSalesAnalyticsDashboard" }) ON CREATE SET n.name = "AlphaCorp AWS-Powered Sales Analytics Dashboard"
+MERGE (n:Technology {id: "PredictiveModeling" })
+MERGE (n:Project {id: "DeltaEduVirtualClassroomPlatformonAWS" }) ON CREATE SET n.name = "DeltaEdu Virtual Classroom Platform on AWS"
+MERGE (n:Technology {id: "AWS" })
+MERGE (n:Person {id: "NoahWilson" }) ON CREATE SET n.name = "Noah Wilson"
+MERGE (n:Project {id: "GammaTechIoTDrivenManufacturingMonitoringSystemonAzure" }) ON CREATE SET n.name = "GammaTech IoT-Driven Manufacturing Monitoring System on Azure"
+MERGE (n:Technology {id: "SecurityCompliance" })
+MERGE (n:Person {id: "AvaJackson" }) ON CREATE SET n.name = "Ava Jackson"
+MERGE (n:Project {id: "BetaHealthTelemedicinePlatformonMicrosoftAzure" }) ON CREATE SET n.name = "BetaHealth Telemedicine Platform on Microsoft Azure"
+MERGE (n:Technology {id: "DevOps" })
+MERGE (n:Person {id: "BenjaminWhite" }) ON CREATE SET n.name = "Benjamin White"
+MERGE (n:Project {id: "DeltaEduAIPoweredStudentPerformanceAnalyticsonAWS" }) ON CREATE SET n.name = "DeltaEdu AI-Powered Student Performance Analytics on AWS"
+MERGE (n:Technology {id: "DataAnalytics" })
+MERGE (n:Person {id: "IsabellaHarris" }) ON CREATE SET n.name = "Isabella Harris"
+MERGE (n:Project {id: "AlphaCorpAWSPoweredSalesAnalyticsDashboard" }) ON CREATE SET n.name = "AlphaCorp AWS-Powered Sales Analytics Dashboard"
+MERGE (n:Technology {id: "MachineLearning" })
+MERGE (n:Person {id: "IsabellaHarris" }) ON CREATE SET n.name = "Isabella Harris"
+MERGE (n:Project {id: "DeltaEduVirtualClassroomPlatformonAWS" }) ON CREATE SET n.name = "DeltaEdu Virtual Classroom Platform on AWS"
+MERGE (n:Technology {id: "AWS" })
+MERGE (n:Person {id: "EllaSmith" }) ON CREATE SET n.name = "Ella Smith"
+MERGE (n:Person {id: "LucasTaylor" }) ON CREATE SET n.name = "Lucas Taylor"
+MERGE (n:Person {id: "LiamThompson" }) ON CREATE SET n.name = "Liam Thompson"
+MERGE (n:Person {id: "SophiaAnderson" }) ON CREATE SET n.name = "Sophia Anderson"
+MERGE (n:Person {id: "AidenLewis" }) ON CREATE SET n.name = "Aiden Lewis"
+MERGE (n:Project {id: "AlphaCorp AWSPowered Sales Analytics Dashboard" }) ON CREATE SET n.name = "AlphaCorp AWS-Powered Sales Analytics Dashboard"
+MERGE (n:Project {id: "DeltaEdu AIPowered Student Performance Analytics on AWS" }) ON CREATE SET n.name = "DeltaEdu AI-Powered Student Performance Analytics on AWS"
+MERGE (n:Project {id: "GammaTech IoTDriven Manufacturing Monitoring System on Azure" }) ON CREATE SET n.name = "GammaTech IoT-Driven Manufacturing Monitoring System on Azure"
+MERGE (n:Project {id: "BetaHealth Telemedicine Platform on Microsoft Azure" }) ON CREATE SET n.name = "BetaHealth Telemedicine Platform on Microsoft Azure"
+MERGE (n:Technology {id: "MachineLearning" }) ON CREATE SET n.name = "Machine Learning"
+MERGE (n:Technology {id: "DataAnalytics" }) ON CREATE SET n.name = "Data Analytics"
+MERGE (n:Technology {id: "Azure" }) ON CREATE SET n.name = "Azure"
+MERGE (n:Technology {id: "Python" }) ON CREATE SET n.name = "Python"
+MERGE (n:Technology {id: "AWS" }) ON CREATE SET n.name = "AWS"
+MERGE (n:Technology {id: "CloudComputing" }) ON CREATE SET n.name = "Cloud Computing"
+MERGE (n:Technology {id: "DevOps" }) ON CREATE SET n.name = "DevOps"
+MERGE (n:Technology {id: "DataWarehousing" }) ON CREATE SET n.name = "Data Warehousing"
+MERGE (n:Technology {id: "IoT" }) ON CREATE SET n.name = "IoT"
+MERGE (n:Technology {id: "RealtimeDataManagement" }) ON CREATE SET n.name = "Real-time Data Management"
+MATCH (a:Project {id: 'AlphaCorpAWSPoweredSalesAnalyticsDashboard'}) MERGE (b:Person {id: 'EmmaMartinez'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'DeltaEduVirtualClassroomPlatformonAWS'}) MERGE (b:Person {id: 'EmmaMartinez'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSPoweredSalesAnalyticsDashboard'}) MERGE (b:Person {id: 'IsabellaHarris'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'DeltaEduVirtualClassroomPlatformonAWS'}) MERGE (b:Person {id: 'IsabellaHarris'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'GammaTechIoTDrivenManufacturingMonitoringSystemonAzure'}) MERGE (b:Person {id: 'NoahWilson'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'BetaHealthTelemedicinePlatformonMicrosoftAzure'}) MERGE (b:Person {id: 'AvaJackson'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'DeltaEduAIPoweredStudentPerformanceAnalyticsonAWS'}) MERGE (b:Person {id: 'BenjaminWhite'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'DeltaEduVirtualClassroomPlatformonAWS'}) MERGE (b:Person {id: 'BenjaminWhite'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'GammaTechIoTDrivenManufacturingMonitoringSystemonAzure'}) MERGE (b:Person {id: 'NoahWilson'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSPoweredSalesAnalyticsDashboard'}) MERGE (b:Technology {id: 'DataEngineering'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'DeltaEduVirtualClassroomPlatformonAWS'}) MERGE (b:Technology {id: 'AWS'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'GammaTechIoTDrivenManufacturingMonitoringSystemonAzure'}) MERGE (b:Technology {id: 'DataPrivacy'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'BetaHealthTelemedicinePlatformonMicrosoftAzure'}) MERGE (b:Technology {id: 'CloudArchitecture'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'DeltaEduAIPoweredStudentPerformanceAnalyticsonAWS'}) MERGE (b:Technology {id: 'RealtimeMonitoring'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSPoweredSalesAnalyticsDashboard'}) MERGE (b:Technology {id: 'PredictiveModeling'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'DeltaEduVirtualClassroomPlatformonAWS'}) MERGE (b:Technology {id: 'AWS'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'GammaTechIoTDrivenManufacturingMonitoringSystemonAzure'}) MERGE (b:Technology {id: 'SecurityCompliance'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'BetaHealthTelemedicinePlatformonMicrosoftAzure'}) MERGE (b:Technology {id: 'DevOps'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'DeltaEduAIPoweredStudentPerformanceAnalyticsonAWS'}) MERGE (b:Technology {id: 'DataAnalytics'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'AlphaCorpAWSPoweredSalesAnalyticsDashboard'}) MERGE (b:Technology {id: 'MachineLearning'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'DeltaEdu AIPowered Student Performance Analytics on AWS'}) MERGE (b:Person {id: 'EllaSmith'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'DeltaEdu AIPowered Student Performance Analytics on AWS'}) MERGE (b:Person {id: 'LiamThompson'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'DeltaEdu AIPowered Student Performance Analytics on AWS'}) MERGE (b:Person {id: 'SophiaAnderson'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'AlphaCorp AWSPowered Sales Analytics Dashboard'}) MERGE (b:Person {id: 'EllaSmith'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'GammaTech IoTDriven Manufacturing Monitoring System on Azure'}) MERGE (b:Person {id: 'LucasTaylor'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'GammaTech IoTDriven Manufacturing Monitoring System on Azure'}) MERGE (b:Person {id: 'LiamThompson'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'BetaHealth Telemedicine Platform on Microsoft Azure'}) MERGE (b:Person {id: 'AidenLewis'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'BetaHealth Telemedicine Platform on Microsoft Azure'}) MERGE (b:Person {id: 'SophiaAnderson'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'DeltaEdu AIPowered Student Performance Analytics on AWS'}) MERGE (b:Technology {id: 'MachineLearning'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'DeltaEdu AIPowered Student Performance Analytics on AWS'}) MERGE (b:Technology {id: 'DataAnalytics'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'DeltaEdu AIPowered Student Performance Analytics on AWS'}) MERGE (b:Technology {id: 'Azure'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'DeltaEdu AIPowered Student Performance Analytics on AWS'}) MERGE (b:Technology {id: 'Python'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'AlphaCorp AWSPowered Sales Analytics Dashboard'}) MERGE (b:Person {id: 'EllaSmith'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'GammaTech IoTDriven Manufacturing Monitoring System on Azure'}) MERGE (b:Person {id: 'LucasTaylor'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'GammaTech IoTDriven Manufacturing Monitoring System on Azure'}) MERGE (b:Person {id: 'LiamThompson'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'BetaHealth Telemedicine Platform on Microsoft Azure'}) MERGE (b:Person {id: 'AidenLewis'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'BetaHealth Telemedicine Platform on Microsoft Azure'}) MERGE (b:Person {id: 'SophiaAnderson'}) MERGE (a)-[:HAS_PEOPLE]->(b)
+MATCH (a:Project {id: 'GammaTech IoTDriven Manufacturing Monitoring System on Azure'}) MERGE (b:Technology {id: 'IoT'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'GammaTech IoTDriven Manufacturing Monitoring System on Azure'}) MERGE (b:Technology {id: 'RealtimeDataManagement'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'GammaTech IoTDriven Manufacturing Monitoring System on Azure'}) MERGE (b:Technology {id: 'Azure'}) MERGE (a)-[:HAS_SKILLS]->(b)
+MATCH (a:Project {id: 'BetaHealth Telemedicine Platform on Microsoft Azure'}) MERGE (b:Technology {id: 'Python'}) MERGE (a)-[:HAS_SKILLS]->(b)
