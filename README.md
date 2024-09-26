@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/bb1d7a7b-334a-49dd-9ca7-7b6af581cb89)# Chat-with-Knowledge-Graph
+# Chat-with-Knowledge-Graph
 
 ## Introduction
 
