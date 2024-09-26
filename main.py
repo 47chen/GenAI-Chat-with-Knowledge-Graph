@@ -14,7 +14,7 @@ dotenv.load_dotenv()
 
 # Ollama Config
 llm = Ollama(
-    model="llama3.1:latest",
+    model="LLama3.1:latest",
     base_url="http://localhost:11434"
 )
 
@@ -86,7 +86,7 @@ def query_graph(user_input):
         allow_dangerous_requests = True
     )
 
-    result = chain(user_input)
+    result = chain.invoke(user_input)
     return result
 
 
