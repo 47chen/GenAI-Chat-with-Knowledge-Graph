@@ -1,4 +1,4 @@
-# Chat-with-Knowledge-Graph
+![image](https://github.com/user-attachments/assets/bb1d7a7b-334a-49dd-9ca7-7b6af581cb89)# Chat-with-Knowledge-Graph
 
 ## Introduction
 
@@ -34,3 +34,28 @@ The project consists of two main components:
 - Streamlit as Chat UI
 - LangChain
 - Python
+
+##
+
+### Knowledge graph in Neo4j
+![image](https://github.com/user-attachments/assets/7096053b-ec3b-4cc1-8151-86360a76266c)
+
+Look closely we can see the relationship between entities
+![image](https://github.com/user-attachments/assets/70a0190b-1f9e-485f-81a1-2de9888adb96)
+![image](https://github.com/user-attachments/assets/e0d53300-6a10-4603-990d-52811e76fac3)
+
+We can see it as table field as well
+![image](https://github.com/user-attachments/assets/cb047e24-1d14-43ca-972a-1f6be39425ae)
+
+## Demo
+* Each request&returning response takes aprox. 20sec based on performance via Ollama LLama3.1-8b
+#### Question: Which projects use Azure? Answer includes human response + cypher statement + query result from neo4j
+![image](https://github.com/user-attachments/assets/364f2d49-0a25-4d9a-b9cf-ac99ce2354b4)
+
+#### Question:Which project use Azure and the name starts character B?
+![image](https://github.com/user-attachments/assets/7d43217e-e949-40f3-b6fa-be85615b9198)
+
+#### If you ask something that exceed the knowledge graph, it is already prompted to answer "I don't know"
+![image](https://github.com/user-attachments/assets/d20c7aa4-ee87-4c34-a938-f4556144254a)
+
+
