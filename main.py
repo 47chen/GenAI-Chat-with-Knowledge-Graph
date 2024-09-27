@@ -74,6 +74,8 @@ qa_prompt = PromptTemplate(
     input_variables = ['context', 'question'], template = CYPHER_QA_TEMPLATE
 )
 
+
+
 def query_graph(user_input):
     graph = Neo4jGraph(url=neo4j_url, username=neo4j_user, password=neo4j_password)
     chain = GraphCypherQAChain.from_llm(
@@ -85,8 +87,8 @@ def query_graph(user_input):
         qa_prompt = qa_prompt,
         allow_dangerous_requests = True
     )
-
     result = chain.invoke(user_input)
+    graph._driver.close()
     return result
 
 
